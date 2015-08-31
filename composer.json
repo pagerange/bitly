@@ -1,0 +1,25 @@
+{
+    "name": "pagerange/bitly",
+    "description": "Bitly API client for apps using Bitly authentication token",
+    "license": "MIT",
+    "keywords": ["bitly", "api", "url"],
+    "authors": [
+        {
+            "name": "Seve George",
+            "email": "steve@pagerange.com",
+            "role": "developer",
+            "homepage": "http://www.pagerange.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.4.0"
+      },
+    "require-dev": {
+      "phpunit/phpunit": "4.8.*"
+      },
+    "autoload": {
+        "psr-0" : {
+          "Pagerange\\Bitly" : "src"
+        }
+    }
+}
